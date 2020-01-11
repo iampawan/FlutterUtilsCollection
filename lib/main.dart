@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterutils/size_page.dart';
+import 'package:flutterutils/zoom_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SizePositionPage(),
+      home: ZoomPage(),
     );
   }
 }
